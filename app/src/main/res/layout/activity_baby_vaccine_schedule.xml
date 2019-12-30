@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b18"
+    tools:context=".Baby.Vaccine.BabyVaccineScheduleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Vaccine Schedule"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#fafafa"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/currentVaccineIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Vaccine Date: "
+            android:textSize="20sp"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/VaccineSelectDateButtonIds"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Select Date"
+            android:textAllCaps="false"
+            android:background="#79c1b0"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/vaccineDateTextViewIds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="100dp"
+        android:layout_gravity="end"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fafafa"/>
+
+    <!--<Button-->
+    <!--android:id="@+id/doneButtonId"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#22ff8d"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:text="Done"-->
+    <!--android:textAllCaps="false"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/VaccineNotextIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Vaccine No: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+        <Spinner
+            android:id="@+id/vacchineNumbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            >
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/VaccineNoIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/previousVaccineIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous Vaccine Date:"
+            android:textSize="20sp"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/vaccineDateText3ViewIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/nextVaccineIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Vaccine Taken:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:textColor="#fafafa"/>
+
+        <TextView
+            android:id="@+id/vaccineDateText2ViewIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/vaccineIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vaccine:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:textColor="#fafafa"/>
+
+        <TextView
+            android:id="@+id/vaccinenoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textColor="#fafafa"/>
+
+        <TextView
+            android:id="@+id/takenIds"
+            android:text="Taken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#22ff4b"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupIds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/yesIds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ff6422"
+
+                />
+
+            <RadioButton
+                android:layout_marginBottom="10dp"
+                android:id="@+id/noIds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ff6422"
+
+                />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/VaccineDoneButtonIds"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:background="#79c1b0"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/VaccineSelectDateButton2Ids"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="#79c1b0"/>
+
+    <Button
+        android:id="@+id/vaccineDone2ButtonIds"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#79c1b0"
+        android:layout_marginTop="8dp"
+        android:text="Set Reminder"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/okButtonIds"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#79c1b0"
+        android:layout_marginTop="8dp"
+        android:text="Ok"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/ok2ButtonIds"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#79c1b0"
+        android:layout_marginTop="8dp"
+        android:text="See Vacchine History"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

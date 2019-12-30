@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.professt.mother_baby_care">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainRegisterActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Mother.MotherHomeActivity" />
+        <activity android:name=".Mother.MeetingDoctorActivity" />
+        <activity android:name=".ReminderMother.DoctorReminder.ReminderActivity" />
+        <activity android:name=".Mother.DoctorFind.DoctorFindActivity" />
+        <activity android:name=".Mother.DoctorFind.HospitalActivity" />
+        <activity android:name=".Mother.DoctorFind.DoctorListActivity" />
+        <activity android:name=".Mother.DoctorFind.DoctorNameActivity" />
+        <activity android:name=".Mother.DoctorFind.DoctorDetailsActivity" />
+        <activity android:name=".Mother.Vaccine.VacchineScheduleActivity" />
+        <activity android:name=".Mother.Vaccine.ForgetVaccineActivity" />
+        <activity android:name=".Mother.Nearest_Hospital.ListHealthCenters" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Mother.Nearest_Hospital.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Mother.Vaccination.MotherVacchineScheduleActivity" />
+        <activity android:name=".BabyRegisterActivity" />
+        <activity android:name=".Baby.BabyHomeActivity" />
+        <activity android:name=".Baby.ChildReminderActivity" />
+        <activity android:name=".Baby.NearestHealth.ListHealthCenter" />
+        <activity
+            android:name=".Baby.NearestHealth.MapActivity"
+            android:label="@string/title_activity_map" />
+        <activity android:name=".Baby.DoctorsFind.DoctorsFindActivity" />
+        <activity android:name=".Baby.DoctorsFind.HospitalsActivity" />
+        <activity android:name=".Baby.DoctorsFind.DoctorNamesActivity" />
+        <activity android:name=".Baby.DoctorsFind.DoctorDetailActivity" />
+        <activity android:name=".Baby.DoctorsFind.DoctorListsActivity" />
+        <activity android:name=".Baby.Vaccine.BabyVaccineScheduleActivity" />
+        <activity android:name=".Baby.Vaccine.BabyForgetVaccineActivity" />
+        <activity android:name=".Baby.VaccineList.BabyVaccineListActivity" />
+        <activity android:name=".Mother.VaccineeList.MotherVaccineListActivity" />
+        <activity android:name=".Mother.Vaccination.TipsActivity" />
+        <activity android:name=".Mother.Vaccination.TipActivity" />
+        <activity android:name=".Baby.ChildTipsActivity" />
+        <activity android:name=".Baby.BabyVacchineSchedule.BabyVacchineScheduleActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Mother.Vaccination.TipShowActivity" />
+        <activity android:name=".Baby.ChildTipsShowActivity"></activity>
+    </application>
+
+</manifest>

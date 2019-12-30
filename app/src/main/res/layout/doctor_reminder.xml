@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0dbe1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff672b"
+        android:text="Previous Meeting:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="start"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="No:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#9f0d0d"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/previousNoId"
+                android:text="No:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="Date:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#9f0d0d"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/previousDateId"
+                android:text="Date:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#050505"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#247609"
+        android:text="Next Meeting:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="start"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+
+           <TextView
+               android:text="No:"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#9f0d0d"
+               android:textStyle="bold"
+               android:textSize="20sp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp" />
+
+           <TextView
+               android:id="@+id/nextNoId"
+               android:text="No:"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#080808"
+               android:textStyle="bold"
+               android:textSize="20sp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:text="Date:"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#9f0d0d"
+               android:textStyle="bold"
+               android:textSize="20sp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginTop="10dp" />
+
+           <TextView
+               android:id="@+id/nextDateId"
+               android:text="Date:"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#030303"
+               android:textStyle="bold"
+               android:textSize="20sp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp" />
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

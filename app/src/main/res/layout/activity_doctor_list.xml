@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b18"
+    tools:context=".Mother.DoctorFind.DoctorListActivity">
+
+    <ExpandableListView
+        android:id="@+id/expandableListViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="2dp"
+        android:divider="#181717"
+        android:listSelector="#6896af">
+    </ExpandableListView>
+
+</LinearLayout>

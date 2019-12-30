@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b18"
+    android:orientation="vertical"
+    tools:context=".ReminderMother.DoctorReminder.ReminderActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginBottom="5dp">
+
+            <ListView
+                android:id="@+id/DoctorReminderlistView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="2dp"
+                android:divider="#181717"
+                android:background="#d0dbe1"
+                android:listSelector="#6896af"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginBottom="5dp">
+
+            <ListView
+                android:id="@+id/VaccineReminderlistView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="2dp"
+                android:divider="#181717"
+                android:background="#d0dbe1"
+                android:listSelector="#6896af"
+                />
+
+        </LinearLayout>
+
+</LinearLayout>

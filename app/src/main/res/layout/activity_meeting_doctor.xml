@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b18"
+    tools:context=".Mother.MeetingDoctorActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Meeting With Doctor"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#fafafa"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/currentMeetingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meeting Set:"
+            android:textSize="20sp"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/selectDateButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Select Date"
+            android:textAllCaps="false"
+            android:background="#79c1b0"/>
+
+        <TextView
+            android:id="@+id/dateTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"
+            />
+
+    </LinearLayout>
+
+    <!--<Button-->
+    <!--android:id="@+id/doneButtonId"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#22ff8d"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:text="Done"-->
+    <!--android:textAllCaps="false"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/meetingNotextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Meeting No: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+        <Spinner
+            android:id="@+id/meetingNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            >
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/meetingNoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/previousMeetingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous Meeting Date:"
+            android:textSize="20sp"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/dateText3ViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/nextMeetingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Meeting:"
+            android:textSize="20sp"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/dateText2ViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/done2ButtonId"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#79c1b0"
+        android:layout_marginTop="20dp"
+        android:text="Set Reminder"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/okButtonId"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#79c1b0"
+        android:layout_marginTop="20dp"
+        android:text="Ok"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/ok2ButtonId"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#79c1b0"
+        android:layout_marginTop="20dp"
+        android:text="Go Back to Home"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

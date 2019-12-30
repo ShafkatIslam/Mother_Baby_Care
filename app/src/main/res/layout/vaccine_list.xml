@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0dbe1"
+    android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Vaccine No:"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#9f0d0d"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="10dp" />
+
+               <TextView
+                   android:id="@+id/vaccineNoId"
+                   android:text="Vaccine No:"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#0b0b0b"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="10dp" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+
+               <TextView
+                   android:text="Taken Date:"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#9f0d0d"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="10dp" />
+
+               <TextView
+                   android:id="@+id/vaccineTakenDateId"
+                   android:text="Taken Date:"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#030303"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="10dp" />
+       </LinearLayout>
+
+
+
+</LinearLayout>

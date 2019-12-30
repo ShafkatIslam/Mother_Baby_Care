@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/b18"
+    tools:context=".Mother.Vaccine.ForgetVaccineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/currentVaccineId1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Vaccine Date: "
+            android:textSize="20sp"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/VaccineSelectDateButtonId1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Select Date"
+            android:textAllCaps="false"
+            android:background="#79c1b0"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/vaccineDateTextViewId1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="100dp"
+        android:layout_gravity="end"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fafafa"/>
+
+    <!--<Button-->
+    <!--android:id="@+id/doneButtonId"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#22ff8d"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:text="Done"-->
+    <!--android:textAllCaps="false"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/VaccineNotextId1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Vaccine No: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+        <Spinner
+            android:id="@+id/vacchineNumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            >
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/VaccineNoId1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fafafa"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/vaccineDone2ButtonId1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#79c1b0"
+        android:layout_marginTop="8dp"
+        android:text="Save"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

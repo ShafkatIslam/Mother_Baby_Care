@@ -1,0 +1,397 @@
+<resources>
+    <string name="app_name">Mother_Baby_Care</string>
+
+    <string-array name="baby_gender">
+
+        <item>Male</item>
+        <item>Female</item>
+
+
+    </string-array>
+
+    <string-array name="hospital_names">
+
+        <item>Chittagong Medical</item>
+        <item>Chittagong Maa O Shishu Hospital</item>
+        <item>Metropoliton Hospital</item>
+        <item>General Hospital</item>
+        <item>USTC Hospital</item>
+        <item>Max Hospital</item>
+        <item>Medical Center</item>
+        <item>National Hospital</item>
+
+
+    </string-array>
+
+    <string-array name="ctgmdcl_list_header">
+
+        <item>Dr. Rahim</item>
+        <item>Dr. Karim</item>
+        <item>Dr. Rahima</item>
+
+
+    </string-array>
+
+    <string-array name="ctgmdcl_names_list_child">
+
+         <item>
+            Phone No: 01816256523
+             \nHospital: Chittagong Medical
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01816256993
+             \nHospital: Chittagong Medical
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01816250123
+             \nHospital: Chittagong Medical
+             \nDegree: MBBS
+
+        </item>
+    </string-array>
+
+    <string-array name="maa_list_header">
+
+        <item>Dr. Kamal</item>
+        <item>Dr. Jamal</item>
+        <item>Dr. Asad</item>
+
+
+    </string-array>
+
+    <string-array name="maa_names_list_child">
+
+         <item>
+            Phone No: 01816256509
+             \nHospital: Chittagong Maa O Shishu Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01816256913
+             \nHospital: Chittagong Maa O Shishu Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01812650123
+             \nHospital: Chittagong Maa O Shishu Hospital
+             \nDegree: MBBS
+
+        </item>
+    </string-array>
+
+    <string-array name="metro_list_header">
+
+        <item>Dr. Jamil</item>
+        <item>Dr. Amir</item>
+
+
+    </string-array>
+
+    <string-array name="metro_names_list_child">
+
+         <item>
+            Phone No: 01716256509
+             \nHospital: Metropoliton Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01916256913
+             \nHospital: Metropoliton Hospital
+             \nDegree: MBBS
+
+        </item>
+    </string-array>
+
+    <string-array name="general_list_header">
+
+        <item>Dr. Salam</item>
+        <item>Dr. Selina</item>
+
+    </string-array>
+
+    <string-array name="general_names_list_child">
+
+         <item>
+            Phone No: 01716116509
+             \nHospital: General Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01616256913
+             \nHospital: General Hospital
+             \nDegree: MBBS
+
+        </item>
+
+    </string-array>
+
+    <string-array name="ustc_list_header">
+
+        <item>Dr. Tareq</item>
+        <item>Dr. Tanim</item>
+
+    </string-array>
+
+    <string-array name="ustc_names_list_child">
+
+         <item>
+            Phone No: 01710016509
+             \nHospital: USTC Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01678256913
+             \nHospital: USTC Hospital
+             \nDegree: MBBS
+
+        </item>
+
+    </string-array>
+
+    <string-array name="max_list_header">
+
+        <item>Dr. Sihab</item>
+        <item>Dr. Minar</item>
+
+    </string-array>
+
+    <string-array name="max_names_list_child">
+
+         <item>
+            Phone No: 01711116509
+             \nHospital: Max Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01678886913
+             \nHospital: Max Hospital
+             \nDegree: MBBS
+
+        </item>
+
+    </string-array>
+
+    <string-array name="mdclcntr_list_header">
+
+        <item>Dr. Rubel</item>
+        <item>Dr. Rafat</item>
+
+    </string-array>
+
+    <string-array name="mdclcntr_list_child">
+
+         <item>
+            Phone No: 01711116511
+             \nHospital: Medical Center
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01678886999
+             \nHospital: Medical Center
+             \nDegree: MBBS
+
+        </item>
+
+    </string-array>
+
+    <string-array name="national_list_header">
+
+        <item>Dr. Maisha</item>
+        <item>Dr. Naima</item>
+
+    </string-array>
+
+    <string-array name="national_list_child">
+
+         <item>
+            Phone No: 01711155511
+             \nHospital: National Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01670086999
+             \nHospital: National Hospital
+             \nDegree: MBBS
+
+        </item>
+
+    </string-array>
+
+    <string-array name="doctor_list_header">
+
+        <item>Dr. Rahim</item>
+        <item>Dr. Karim</item>
+        <item>Dr. Rahima</item>
+        <item>Dr. Kamal</item>
+        <item>Dr. Jamal</item>
+        <item>Dr. Asad</item>
+        <item>Dr. Jamil</item>
+        <item>Dr. Amir</item>
+        <item>Dr. Salam</item>
+        <item>Dr. Selina</item>
+        <item>Dr. Tareq</item>
+        <item>Dr. Tanim</item>
+        <item>Dr. Sihab</item>
+        <item>Dr. Minar</item>
+        <item>Dr. Rubel</item>
+        <item>Dr. Rafat</item>
+        <item>Dr. Maisha</item>
+        <item>Dr. Naima</item>
+
+    </string-array>
+
+    <string-array name="doctor_names_list_child">
+
+         <item>
+            Phone No: 01816256523
+             \nHospital: Chittagong Medical
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01816256993
+             \nHospital: Chittagong Medical
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01816250123
+             \nHospital: Chittagong Medical
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01816256509
+             \nHospital: Chittagong Maa O Shishu Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01816256913
+             \nHospital: Chittagong Maa O Shishu Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01812650123
+             \nHospital: Chittagong Maa O Shishu Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01716256509
+             \nHospital: Metropoliton Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01916256913
+             \nHospital: Metropoliton Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01716116509
+             \nHospital: General Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01616256913
+             \nHospital: General Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01710016509
+             \nHospital: USTC Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01678256913
+             \nHospital: USTC Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01711116509
+             \nHospital: Max Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01678886913
+             \nHospital: Max Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01711116511
+             \nHospital: Medical Center
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01678886999
+             \nHospital: Medical Center
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01711155511
+             \nHospital: National Hospital
+             \nDegree: MBBS
+
+        </item>
+
+        <item>
+            Phone No: 01670086999
+             \nHospital: National Hospital
+             \nDegree: MBBS
+
+        </item>
+
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">Map</string>
+</resources>
